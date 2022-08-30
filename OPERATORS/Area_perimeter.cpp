@@ -2,8 +2,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-      cout << "Area is: " << 5*7 << endl;
-      cout << "perimeter is: " << 2*(5+7) << endl;
+      int a,b;
+      cout<<"Enter Value: " <<endl;
+      cin>>a>>b;
+      
+
+      cout << "Area is: " << a*b << endl;
+      cout << "perimeter is: " << 2*(a+b) << endl;
       return 0;
 
 }
